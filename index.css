@@ -5,3 +5,19 @@
 .pgraph {
     font-size: 30px;
 }
+
+a[href^="https"]{
+color: green;
+}
+
+a[href$="com"] {
+    color: red;
+}
+
+a[href*="bbc"] {
+     color: yellow;
+ }
+
+a[href*="second"] {
+    color: blue;
+}
