@@ -1,0 +1,15 @@
+article p:first-child:first-line{
+    color:blue ;
+}
+
+article:before {
+    content: url(https://www.w3schools.com/css/img_lights.jpg);
+}
+
+li {
+    display:inline;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    background-color: steelblue;
+}
