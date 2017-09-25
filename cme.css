@@ -7,6 +7,7 @@ section{
     text-align: center;
     padding: 1em 2em;
     margin: 2em auto 3em;
+
 }
 article {
     background-color: #f15b2a;
@@ -15,9 +16,8 @@ article {
     right: 0;
     left: 0;
     padding: 1em 2em;
+    display: none;
+
+/*funkar också med visibility:hidden;*/
 }
 
-section article {
-    visibility: hidden;
-
-}
