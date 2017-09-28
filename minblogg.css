@@ -1,0 +1,58 @@
+header{
+    height:40px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+a:link{
+    color:black;
+    text-decoration: none;
+    padding:2%;
+}
+
+figure img {
+    display: inline-block;
+    float: left;
+    width: 100px;
+}
+
+article:before{
+    image: url(pink_muffin.png);
+}
+
+footer{
+    height:40px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+
+@media print{
+    header{
+        color: white;
+        background-color: black;
+
+    }
+
+}
+
+@media print{
+    footer{
+        color:white;
+        background-color: black;
+    }
+}
